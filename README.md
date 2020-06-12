@@ -35,3 +35,11 @@ After changing the password, the security mode was set to medium and this was th
 The reason why it didn’t work was that the medium level checks whether the request came from trusted source. Thus the previous method wont work on medium level.
 ![Medium level code ](https://github.com/Prachal80/DVWA-CSRF-ATTACK-DEMO/blob/master/img/medium%20level.png)
 
+ Part 3 : High security mode
+
+**Set the security mode to “Low” and examine the code that is vulnerable, and then set the security mode to “High” and reexamine the same code. What changed? How do the changes prevent the attack from succeeding?**
+
+In high security mode, tokens are used so we it prevented the CSRF attack from happening. In low mode, there are no checks that can prevent the attack from happening.
+![High level code](https://github.com/Prachal80/DVWA-CSRF-ATTACK-DEMO/blob/master/img/High%20level.png)
+
+![Low level code](https://github.com/Prachal80/DVWA-CSRF-ATTACK-DEMO/blob/master/img/low%20level.png)
