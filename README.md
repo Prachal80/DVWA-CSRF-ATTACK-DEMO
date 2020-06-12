@@ -22,3 +22,16 @@ The request that was made after clicking the button was:
 
 Upon the execution of the request, the password was set as root.
 ![enter image description here](https://github.com/Prachal80/DVWA-CSRF-ATTACK-DEMO/blob/master/img/low.png)
+
+
+    Part 2 : Medium security mode
+    
+  **Does your attack work in “Medium” security level?**
+  
+After changing the password, the security mode was set to medium and this was the output when the request was made: The reason why it didn’t work was that the medium level checks whether the request came from trusted source. Thus the previous method wont work on medium level.
+
+![Request failed](https://github.com/Prachal80/DVWA-CSRF-ATTACK-DEMO/blob/master/img/medium.png)
+
+The reason why it didn’t work was that the medium level checks whether the request came from trusted source. Thus the previous method wont work on medium level.
+![Medium level code ](https://github.com/Prachal80/DVWA-CSRF-ATTACK-DEMO/blob/master/img/medium%20level.png)
+
