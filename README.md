@@ -1,6 +1,8 @@
 # DVWA-CSRF-ATTACK-DEMO
 CSRF attack demo on DVWA(Damn Vulnerable Web App ) which is coded in PHP/MYSQL and is intentionally made vulnerable to learn how an application can be compromised using different techniques
 
+![Application Home page](https://github.com/Prachal80/DVWA-CSRF-ATTACK-DEMO/blob/master/img/DVWA.png)
+
 
 # CSRF attack
 ***Note : Performed the attacks on virtual machine on Kali Linux OS. Performing the experiments in Virtual machine or Container is preferred for security purposes.***
